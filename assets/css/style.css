@@ -86,8 +86,6 @@ section {
 
 .indlowongan {
     text-align: center;
-    background: rgba(255, 255, 255, 0.048) url(../img/bg/bgbg.png) no-repeat center top;
-    background-size: contain;
 }
 
 .indlowongan .info-box {
@@ -237,7 +235,7 @@ section {
     border-radius: 5px;
     /* background: #d6f0ff3a; */
     color: #444444;
-    background: #fafbff;
+    background: #eef1ff;
     box-shadow: 0px 0 30px rgba(2, 68, 182, 0.014);
     transition: 0.3s;
 }
@@ -1429,8 +1427,8 @@ section {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 600;
     color: #000000;
     white-space: nowrap;
     transition: 0.3s;
@@ -2734,13 +2732,17 @@ section {
 --------------------------------------------------------------*/
 
 .bannerpromo2 {
-    background: white url(../img/kota/bg-kotalowongan.png) no-repeat center top;
+    background: white url(../img/bg/test02.png) no-repeat center top;
     background-size: contain;
 }
 
 .bannerpromo2-slider {
     /* padding-bottom: 20px; */
     text-align: center;
+}
+
+.bannerpromo2-slider .promo-item2 {
+    max-width: 100%;
 }
 
 .bannerpromo2 {
@@ -4703,7 +4705,7 @@ section {
 /*---- Custom CSS ----*/
 
 .search {
-    background: rgba(255, 255, 255, 0.048) url(../img/bg/bgbg.png) no-repeat center top;
+    background: white url(../img/bg/test01.png) no-repeat center bottom;
     background-size: contain;
 }
 
@@ -4762,12 +4764,12 @@ section {
 }
 
 .detailsatulowongan .entry .entry-title a {
-    color: #078dd6;
+    color: #23a2b8;
     transition: 0.3s;
 }
 
 .detailsatulowongan .entry .entry-title a:hover {
-    color: #23A2B8;
+    color: #157d8f;
 }
 
 .detailsatulowongan .entry .entry-content h3 {
