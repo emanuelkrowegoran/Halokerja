@@ -86,6 +86,8 @@ section {
 
 .indlowongan {
     text-align: center;
+    background: rgba(255, 255, 255, 0.048) url(../img/bg/bgbg.png) no-repeat center top;
+    background-size: contain;
 }
 
 .indlowongan .info-box {
@@ -280,10 +282,6 @@ section {
 section {
     padding: 60px 0;
     overflow: hidden;
-}
-
-.kategorilowongan {
-    text-align: center;
 }
 
 .kategorilowongan .info-box {
@@ -2735,6 +2733,11 @@ section {
 # Test Baner promo Posts
 --------------------------------------------------------------*/
 
+.bannerpromo2 {
+    background: white url(../img/kota/bg-kotalowongan.png) no-repeat center top;
+    background-size: contain;
+}
+
 .bannerpromo2-slider {
     /* padding-bottom: 20px; */
     text-align: center;
@@ -2761,95 +2764,6 @@ section {
 
 .bannerpromo2 .bannerpromo2-slider .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #23A2B8;
-}
-
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-
-.team {
-    background: #fff;
-    padding: 500px 0;
-    text-align: center;
-}
-
-.team .member {
-    overflow: hidden;
-    text-align: center;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-    transition: 0.3s;
-}
-
-.team .member .member-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.team .member .social {
-    position: absolute;
-    right: -100%;
-    top: 30px;
-    opacity: 0;
-    border-radius: 4px;
-    transition: 0.5s;
-    background: rgba(255, 255, 255, 0.3);
-    z-index: 2;
-}
-
-.team .member .social a {
-    transition: color 0.3s;
-    color: rgba(1, 41, 112, 0.5);
-    margin: 15px 12px;
-    display: block;
-    line-height: 0;
-    text-align: center;
-}
-
-.team .member .social a:hover {
-    color: rgba(1, 41, 112, 0.8);
-}
-
-.team .member .social i {
-    font-size: 18px;
-}
-
-.team .member .member-info {
-    padding: 10px 15px 20px 15px;
-}
-
-.team .member .member-info h4 {
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 20px;
-    color: #012970;
-}
-
-.team .member .member-info span {
-    display: block;
-    font-size: 14px;
-    font-weight: 400;
-    color: #aaaaaa;
-}
-
-.team .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    padding-top: 15px;
-    line-height: 26px;
-    color: #5e5e5e;
-}
-
-.team .member:hover {
-    transform: scale(1.08);
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.team .member:hover .social {
-    right: 8px;
-    opacity: 1;
 }
 
 
@@ -4789,7 +4703,7 @@ section {
 /*---- Custom CSS ----*/
 
 .search {
-    background: rgba(255, 255, 255, 0.048) url(../img/Backgroud\ City.jpg) no-repeat center top;
+    background: rgba(255, 255, 255, 0.048) url(../img/bg/bgbg.png) no-repeat center top;
     background-size: contain;
 }
 
