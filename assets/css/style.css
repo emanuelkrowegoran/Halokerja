@@ -1497,12 +1497,8 @@ section {
     width: 25px;
 }
 
-#topbar .icon-menutopbar {
-    width: 5px;
-}
-
-#topbar .topbar-info .icon-menutopbar {
-    padding-right: 18px;
+#topbar .menutopbar {
+    width: 22px;
 }
 
 .navbar .dropdown .icon-menu {
