@@ -1496,6 +1496,10 @@ section {
     width: 25px;
 }
 
+#topbar .icon-menutopbar {
+    width: 18px;
+}
+
 .navbar .dropdown .icon-menu {
     padding-right: 8px;
     width: 25px;
