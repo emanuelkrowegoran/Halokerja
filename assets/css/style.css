@@ -1230,7 +1230,7 @@ section {
     top: -40px;
 }
 
-#topbar .contact-info a {
+#topbar .topbar-info a {
     line-height: 1;
     font-size: 10px;
     color: #444444;
@@ -1240,18 +1240,18 @@ section {
     padding-right: 20px;
 }
 
-#topbar .contact-info a:hover {
+#topbar .topbar-info a:hover {
     color: #1977cc;
 }
 
-#topbar .contact-info i {
+#topbar .topbar-info i {
     color: #1977cc;
     padding-right: 4px;
     margin-left: 15px;
     line-height: 0;
 }
 
-#topbar .contact-info i:first-child {
+#topbar .topbar-info i:first-child {
     margin-left: 0;
 }
 
@@ -1501,7 +1501,7 @@ section {
     width: 5px;
 }
 
-#topbar .contact-info .icon-menutopbar {
+#topbar .topbar-info .icon-menutopbar {
     padding-right: 18px;
 }
 
@@ -2499,153 +2499,6 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-
-.portfolio-details {
-    padding-top: 40px;
-}
-
-.portfolio-details .portfolio-details-slider img {
-    width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-    margin-top: 20px;
-    position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    opacity: 1;
-    border: 1px solid #23A2B8;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #23A2B8;
-}
-
-.portfolio-details .portfolio-info {
-    padding: 30px;
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
-    margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-    padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-    padding: 0;
-}
-
-
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-
-.testimonials .testimonial-item {
-    box-sizing: content-box;
-    /* padding: 30px;
-    margin: 40px 30px; */
-    box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-    background: #fff;
-    /* min-height: 300px; */
-    min-width: 450px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-    width: 100%;
-    border: 4px solid #fff;
-    margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 5px 0;
-    color: #111;
-}
-
-.testimonials .testimonial-item h4 {
-    font-size: 14px;
-    color: #999;
-    margin: 0;
-}
-
-.testimonials .testimonial-item p {
-    font-style: italic;
-    margin: 0 auto 15px auto;
-}
-
-.testimonials .swiper-pagination {
-    margin-top: 80px;
-    position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
-    background-color: #fff;
-    opacity: 1;
-    border: 1px solid #23A2B8;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #23A2B8;
-}
-
-.testimonials .swiper-slide {
-    opacity: 0.1;
-}
-
-@media (max-width: 1199px) {
-    .testimonials .swiper-slide-active {
-        opacity: 1;
-    }
-    .testimonials .swiper-pagination {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 1200px) {
-    .testimonials .swiper-slide-next {
-        opacity: 1;
-        transform: scale(1.12);
-    }
-}
-
-
-/*--------------------------------------------------------------
 # Banner Promo
 --------------------------------------------------------------*/
 
@@ -2810,8 +2663,8 @@ section {
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     background-color: #fff;
     opacity: 1;
     border: 1px solid #23A2B8;
