@@ -2743,7 +2743,7 @@ section {
 --------------------------------------------------------------*/
 
 .bannerpromo2 {
-    background: white url(../img/bg/test02.png) no-repeat center top;
+    background: white url(../img/bg/test01.png) no-repeat center bottom;
     background-size: contain;
 }
 
@@ -4716,7 +4716,7 @@ section {
 /*---- Custom CSS ----*/
 
 .search {
-    background: white url(../img/bg/test01.png) no-repeat center bottom;
+    background: white url(../img/bg/test02.png) no-repeat center top;
     background-size: contain;
 }
 
