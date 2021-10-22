@@ -1344,7 +1344,7 @@ section {
 }
 
 #header.header-scrolled {
-    top: 0;
+    top: 40px;
 }
 
 #header .logo {
