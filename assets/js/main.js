@@ -1,5 +1,18 @@
+/**
+ * Dialog Pop up login
+//  */
+// $(document).ready(function() {
+//     $('#loginModal').modal('show');
+//     $(function() {
+//         $('[data-toggle="tooltip"]').tooltip()
+//     })
+// });
+
+
 (function() {
     "use strict";
+
+
 
     /**
      * Easy selector helper function
@@ -23,6 +36,7 @@
             select(el, all).addEventListener(type, listener)
         }
     }
+
 
     /**
      * Easy on scroll event listener 
@@ -68,6 +82,7 @@
             behavior: 'smooth'
         })
     }
+
 
     /**
      * Toggle .header-scrolled class to #header when page is scrolled
@@ -167,7 +182,7 @@
         },
         breakpoints: {
             320: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 40
             },
             480: {

@@ -372,15 +372,23 @@ section {
 }
 
 @media (max-width: 768px) {
-    .section-lowongan p {
-        font-size: 28px;
+    .kotalowongan .section-lowongan p {
+        font-size: 15px;
         line-height: 32px;
     }
-}
-
-@media (max-width: 768px) {
+    .kotalowongan .section-lowongan h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        color: #a0a0a0a9;
+    }
     .pulau-slider {
-        padding: 40px 40px 40px 40px;
+        padding: 0 40px 40px 40px;
+    }
+    .kotalowongan {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -390,7 +398,7 @@ section {
     border-radius: 5px;
     /* background: #d6f0ff3a; */
     color: #444444;
-    background: #eef1ff;
+    background: #f4f6ff;
     box-shadow: 0px 0 30px rgba(2, 68, 182, 0.014);
     transition: 0.3s;
 }
@@ -506,13 +514,6 @@ section {
     background: #157d8f;
 }
 
-@media (max-width: 768px) {
-    .section-lowongan p {
-        font-size: 28px;
-        line-height: 32px;
-    }
-}
-
 .kategorilowongan .feature-box {
     padding: 15px 18px;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
@@ -562,6 +563,27 @@ section {
     .kategorilowongan .feture-tabs h3 {
         font-size: 28px;
     }
+    .kategorilowongan .feature-icons h3 {
+        font-size: 28px;
+    }
+    .kategorilowongan .section-lowongan p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .kategorilowongan .section-lowongan h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        color: #a0a0a0a9;
+    }
+    .kategorilowongan .section-lowongan {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .kategorilowongan {
+        padding-top: 0px;
+    }
 }
 
 .kategorilowongan .feture-tabs .nav-pills {
@@ -609,12 +631,6 @@ section {
     font-size: 32px;
     margin-bottom: 20px;
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    .kategorilowongan .feature-icons h3 {
-        font-size: 28px;
-    }
 }
 
 .kategorilowongan .feature-icons .content .icon-box {
@@ -1911,15 +1927,21 @@ section {
 @media (max-width: 768px) {
     .hero {
         text-align: center;
-    }
-    .hero h1 {
-        font-size: 32px;
-    }
-    .hero h2 {
-        font-size: 24px;
+        padding-bottom: 0;
     }
     .hero .hero-img img {
         width: 100%;
+    }
+    .hero h1 {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 700;
+        color: #23a2b8;
+    }
+    .hero h2 {
+        color: #444444;
+        margin: 15px 0 0 0;
+        font-size: 15px;
     }
 }
 
@@ -2069,6 +2091,21 @@ section {
 .counts .count-box:hover .social {
     right: 8px;
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .counts .count-box span {
+        font-size: 20px;
+        display: block;
+        font-weight: 600;
+        color: #23a2b8;
+    }
+    .counts .count-box p {
+        padding: 0;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+    }
 }
 
 
@@ -2772,32 +2809,19 @@ section {
 # Test Baner promo Posts
 --------------------------------------------------------------*/
 
-.bannerpromo2 {
-    background: white url(../img/bg/test01.png) no-repeat center bottom;
-    background-size: contain;
-}
 
-.bannerpromo2-slider {
-    /* padding-bottom: 20px; */
-    text-align: center;
-}
+/* @media (max-width: 768px) { */
 
-.bannerpromo2-slider .promo-item2 {
-    max-width: 100%;
-}
 
-.bannerpromo2 {
-    /* padding-bottom: 100px; */
-    text-align: center;
-}
+/* @media (max-width: 991px) { */
 
-.bannerpromo2 .bannerpromo2-slider .swiper-pagination {
-    margin-top: 20px;
+.bannerpromo2 .swiper-pagination {
+    margin-top: 40px;
     position: relative;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
-.bannerpromo2 .bannerpromo2-slider .swiper-pagination .swiper-pagination-bullet {
+.bannerpromo2 .swiper-pagination .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
     background-color: #fff;
@@ -2805,8 +2829,26 @@ section {
     border: 1px solid #23A2B8;
 }
 
-.bannerpromo2 .bannerpromo2-slider .swiper-pagination .swiper-pagination-bullet-active {
+.bannerpromo2 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #23A2B8;
+}
+
+@media (min-width: 1200px) {
+    .bannerpromo2 {
+        background: white url(../img/bg/test01.png) no-repeat center bottom;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 768px) {
+    .indlowongan .bannerpromo2-slider {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bannerpromo2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 }
 
 
@@ -2840,6 +2882,43 @@ section {
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #23A2B8;
+}
+
+.section-client {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section-client h2 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    color: #a0a0a0a9;
+}
+
+.section-client p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 25px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #23A2B8;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .clients .section-client p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .clients .section-client h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        color: #a0a0a0a9;
+    }
 }
 
 
@@ -2940,6 +3019,26 @@ section {
 @media (max-width: 768px) {
     .blog-slider {
         padding: 30px 30px 30px 30px;
+    }
+    .recent-blog-posts .section-blogpost p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .recent-blog-posts .section-blogpost h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        color: #a0a0a0a9;
+    }
+    .recent-blog-posts .section-blogpost {
+        padding-top: 0px;
+    }
+    .recent-blog-posts .blog-slider {
+        padding-top: 0px;
+    }
+    .recent-blog-posts {
+        padding-top: 50px;
     }
 }
 
@@ -4743,11 +4842,29 @@ section {
 }
 
 
-/*---- Custom CSS ----*/
+/*---- Search css ----*/
 
-.search {
-    background: white url(../img/bg/test02.png) no-repeat center top;
-    background-size: contain;
+.section-search {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section-search h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    color: #a0a0a0a9;
+}
+
+.section-search p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #23A2B8;
+    text-transform: uppercase;
 }
 
 .search-box {
@@ -4770,6 +4887,34 @@ section {
 
 .search-box .btn-light {
     border: 1px solid #ced4da;
+}
+
+@media (max-width: 768px) {
+    .search .section-search p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .search .section-search h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        color: #a0a0a0a9;
+    }
+    .search .section-search {
+        padding-top: 0;
+    }
+    .search {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .search {
+        background: white url(../img/bg/test02.png) no-repeat center top;
+        background-size: contain;
+    }
 }
 
 
@@ -6291,9 +6436,41 @@ section {
     padding: 10px 0 10px 0;
 }
 
-@media (max-width: 772px) {
+@media (max-width: 768px) {
+    .indlowongan .section-lowongan p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .indlowongan .section-lowongan h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        color: #a0a0a0a9;
+    }
+    .indlowongan .section-lowongan {
+        padding-top: 0px;
+    }
+    .indlowongan .sectionlowongan-slider {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
     .indlowongan {
-        padding-top: 50px;
+        padding-top: 0px;
+    }
+    .indlowongan a {
+        font-size: 12px;
+    }
+    .indlowongan .getlowongan,
+    .indlowongan .getlowongan:focus {
+        background: #23A2B8;
+        border-radius: 4px;
+        color: #fff;
+    }
+    .indlowongan .getlowongan:hover,
+    .indlowongan .getlowongan:focus:hover {
+        color: #fff;
+        background: #157d8f;
     }
 }
 
@@ -6852,7 +7029,7 @@ section {
     padding: 20px 0 20px 0;
 }
 
-.indlowongan alamatkantor {
+.indlowongan .alamatkantor {
     padding: 20px 0 20px 0;
 }
 
@@ -6860,17 +7037,17 @@ section {
     padding: 20px 0 20px 0;
 }
 
-.indlowongan .getstarted,
-.indlowongan .getstarted:focus {
+.indlowongan .getlowongan,
+.indlowongan .getlowongan:focus {
     background: #23A2B8;
-    padding: 8px 20px;
+    padding: 10px 20px;
     margin-left: 30px;
     border-radius: 4px;
     color: #fff;
 }
 
-.indlowongan .getstarted:hover,
-.indlowongan .getstarted:focus:hover {
+.indlowongan .getlowongan:hover,
+.indlowongan .getlowongan:focus:hover {
     color: #fff;
     background: #157d8f;
 }
@@ -7297,4 +7474,512 @@ section {
 
 /*--------------------------------------------------------------
 # Login
+--------------------------------------------------------------*/
+
+.modal-body .info-box {
+    color: #444444;
+    background: #fafbff;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.modal-body .info-box .img-iklan {
+    image-resolution: 500px;
+}
+
+.modal-body .info-box i {
+    font-size: 40px;
+    line-height: 0;
+    color: #23A2B8;
+}
+
+.modal-body .info-box h3 {
+    font-size: 10px;
+    color: #23a2b8;
+    font-weight: 600;
+    margin: 25px 25px 0 0;
+}
+
+.modal-body .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.modal-body .section-lainlowongan {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.modal-body .section-lainlowongan h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    color: #a0a0a0a9;
+}
+
+.modal-body .section-lainlowongan p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #23A2B8;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .modal-body .section-lainlowongan p {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .modal .modal-body .perusahaan .feature-box h3 {
+        font-size: 14px;
+        color: #23A2B8;
+        font-weight: 700;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .modal .modal-body .pencari .feature-box h3 {
+        font-size: 14px;
+        color: #23A2B8;
+        font-weight: 700;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .modal-body .section-lainlowongan p {
+        margin: 10px 0 0 0;
+        padding: 0;
+        font-size: 18px;
+        line-height: 42px;
+        font-weight: 600;
+        color: #23A2B8;
+        text-transform: uppercase;
+    }
+    .modal .modal-body .section-lainlowongan {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .modal .modal-body .feature-box {
+        padding: 10px 10px 10px 10px;
+    }
+    .modal .modal-body .feature-box .img-iconlogin {
+        max-width: 60px;
+        padding-left: 20px;
+    }
+    .modal .modal-body .perusahaan {
+        padding-top: 20px;
+    }
+}
+
+.modal-body .pencari {
+    padding-top: 20px;
+}
+
+.modal-body .feature-box {
+    padding: 15px 18px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.modal-body .perusahaan .feature-box h3 {
+    font-size: 17px;
+    color: #23A2B8;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 40px;
+}
+
+.modal-body .pencari .feature-box h3 {
+    font-size: 17px;
+    color: #23A2B8;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 40px;
+}
+
+.modal-body .feature-box i {
+    line-height: 0;
+    background: #ecf3ff;
+    padding: 4px;
+    margin-right: 10px;
+    font-size: 24px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.modal-body .feature-box .img-iconlogin {
+    max-width: 80px;
+    padding-left: 20px;
+}
+
+.modal-body .feature-box:hover i {
+    background: #23A2B8;
+    color: #fff;
+}
+
+.modal-body .feture-tabs {
+    margin-top: 80px;
+}
+
+.modal-body .feture-tabs h3 {
+    color: #23a2b8;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .modal-body .feture-tabs h3 {
+        font-size: 28px;
+    }
+}
+
+.modal-body .feture-tabs .nav-pills {
+    border-bottom: 1px solid #eee;
+}
+
+.modal-body .feture-tabs .nav-link {
+    background: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #23a2b8;
+    padding: 12px 0;
+    margin-right: 25px;
+    margin-bottom: -2px;
+    border-radius: 0;
+}
+
+.modal-body .feture-tabs .nav-link.active {
+    color: #23A2B8;
+    border-bottom: 3px solid #23A2B8;
+}
+
+.modal-body .feture-tabs .tab-content h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    color: #23a2b8;
+}
+
+.modal-body .feture-tabs .tab-content i {
+    font-size: 24px;
+    line-height: 0;
+    margin-right: 8px;
+    color: #23A2B8;
+}
+
+.modal-body .feature-icons {
+    margin-top: 120px;
+}
+
+.modal-body .feature-icons h3 {
+    color: #23a2b8;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .modal-body .feature-icons h3 {
+        font-size: 28px;
+    }
+}
+
+.modal-body .feature-icons .content .icon-box {
+    display: flex;
+}
+
+.modal-body .feature-icons .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #23a2b8;
+}
+
+.modal-body .feature-icons .content .icon-box i {
+    font-size: 44px;
+    line-height: 44px;
+    color: #0245bc;
+    margin-right: 15px;
+}
+
+.modal-body .feature-icons .content .icon-box p {
+    font-size: 15px;
+    color: #848484;
+}
+
+.modal-body .feature-box:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.modal-body .feature-box:hover .social {
+    right: 8px;
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------------------
+# Login
+--------------------------------------------------------------*/
+
+.post-item {
+    margin-top: 15px;
+}
+
+.post-item img {
+    width: 80px;
+    float: left;
+}
+
+.post-item h4 {
+    font-size: 15px;
+    margin-left: 95px;
+    font-weight: bold;
+}
+
+.post-item h4 a {
+    color: #000000;
+    transition: 0.3s;
+}
+
+.post-item h4 a:hover {
+    color: #23A2B8;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 400px;
+    }
+    .modal-dialog .modal-content {
+        padding: 1rem;
+    }
+}
+
+.modal-header .close {
+    margin-top: -1.5rem;
+}
+
+.form-title {
+    margin: -2rem 0rem 2rem;
+}
+
+.btn-round {
+    border-radius: 3rem;
+}
+
+.delimiter {
+    padding: 1rem;
+}
+
+.social-buttons .btn {
+    margin: 0 0.5rem 1rem;
+}
+
+.signup-section {
+    padding: 0.3rem 0rem;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5
+}
+
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer
+}
+
+.close:not(:disabled):not(.disabled):focus,
+.close:not(:disabled):not(.disabled):hover {
+    color: #000;
+    text-decoration: none;
+    opacity: .75
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none
+}
+
+.modal-open {
+    overflow: hidden
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none
+}
+
+.modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    transform: translate(0, -25%)
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+    .modal.fade .modal-dialog {
+        transition: none
+    }
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.modal-dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2))
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000
+}
+
+.modal-backdrop.fade {
+    opacity: 0
+}
+
+.modal-backdrop.show {
+    opacity: .5
+}
+
+.modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5
+}
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem
+}
+
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: left;
+    align-items: left;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef
+}
+
+.modal-footer>:not(:first-child) {
+    margin-left: .25rem
+}
+
+.modal-footer>:not(:last-child) {
+    margin-left: .25rem
+}
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll
+}
+
+@media (min-width:576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto
+    }
+    .modal-dialog-centered {
+        min-height: calc(100% - (1.75rem * 2))
+    }
+    .modal-sm {
+        max-width: 300px
+    }
+}
+
+@media (min-width:992px) {
+    .modal-lg {
+        max-width: 800px
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Halman Login Registrasi Pencari Lowongan
 --------------------------------------------------------------*/

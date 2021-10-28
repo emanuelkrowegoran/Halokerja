@@ -32,6 +32,50 @@
 
 <body>
 
+    <article>
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                    </div>
+                    <div class="modal-body">
+                        <header class="section-lainlowongan">
+                            <img src="assets/img/halokerja.png" class="img-fluid" alt=" ">
+                            <p>Masuk ke Halokerja</p>
+                            <h2>Saya ingin masuk sebagai</h2>
+                        </header>
+
+                        <div class="col-lg-12 col-md-6">
+                            <div class="row">
+                                <div class="perusahaan">
+                                    <a href="login.html">
+                                        <div class="feature-box d-flex align-items-center ">
+                                            <img src="assets/img/icon-login/ICON Pencari Lowongan.png" class="img-iconlogin" alt=" ">
+                                            <h3>Pencari Lowongan</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="pencari">
+                                        <a href="login.html">
+                                            <div class="feature-box d-flex align-items-center ">
+                                                <img src="assets/img/icon-login/ICON Penyedia Lowongan.png" class="img-iconlogin" alt=" ">
+                                                <h3>Penyedia Lowongan</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- partial -->
+        </div>
+    </article>
     <!-- ======= Top Bar ======= -->
     <div id="topbar" class="d-flex align-items-center fixed-top">
         <div class="container d-flex justify-content-between">
@@ -45,7 +89,7 @@
             <div class="topbar-info d-flex align-items-center">
                 <img src="assets/img/icon-menu/carapasang.png" class="menutopbar"> <a href="cara-pasang.html">Cara Pasang Iklan</a>
                 <img src="assets/img/icon-menu/formatiklan.png" class="menutopbar"> <a href="format-iklan.html">Format Iklan Loker</a>
-                <img src="assets/img/icon-menu/login.png" class="menutopbar"> <a href="login.html">LOGIN</a>
+                <img src="assets/img/icon-menu/login.png" class="menutopbar"> <a data-toggle="modal" data-target="#loginModal" href="#">LOGIN</a>
             </div>
 
         </div>
@@ -235,6 +279,10 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js "></script>
+
+    <!-- jQuery -->
+    <script src="assets/vendor/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.popup.js"></script>
 
 </body>
 
