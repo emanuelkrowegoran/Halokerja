@@ -88,6 +88,12 @@ section {
     text-align: center;
 }
 
+.indlowongan .sectionlowongan-slider .swiper-wrapper .swiper-slide .section-lowongan-item .one-third .job-post-item-header p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 13px;
+}
+
 .section-lowongan-item {
     z-index: 0;
     background: #fff;
@@ -150,7 +156,7 @@ section {
 }
 
 .section-lowongan-item .jobs_right .date p {
-    font-size: 12px;
+    font-size: 11px;
     padding-top: 10px;
     font-style: italic;
 }
@@ -180,9 +186,31 @@ section {
     color: #000000;
 }
 
-.section-lowongan-item .job-post-item-header p {
+.ftco-section .job-post-item .job-post-item-header span {
+    color: rgba(0, 0, 0, 0.3);
+    color: #23a2b8;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ftco-section .sidebar-box h3 {
+    color: #020202;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.ftco-section .job-post-item .job-post-item-header h2 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.ftco-section .job-post-item .job-post-item-header p {
+    color: #000000;
+    font-weight: 400;
     font-size: 12px;
-    padding-top: 10px;
 }
 
 .section-lowongan-item .one-third {
@@ -206,7 +234,7 @@ section {
     color: #23a2b8;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .section-lowongan-item .one-third h2 {
@@ -647,7 +675,7 @@ section {
 .kategorilowongan .feature-icons .content .icon-box i {
     font-size: 44px;
     line-height: 44px;
-    color: #0245bc;
+    color: #23a2b8;
     margin-right: 15px;
 }
 
@@ -2226,7 +2254,7 @@ section {
 .features .feature-icons .content .icon-box i {
     font-size: 44px;
     line-height: 44px;
-    color: #0245bc;
+    color: #23a2b8;
     margin-right: 15px;
 }
 
@@ -7219,10 +7247,6 @@ section {
     margin-right: 7px;
 }
 
-.sidebar-box .heading-sidebar {
-    font-size: 19px;
-}
-
 .sidebar-box .border {
     border: 1px solid rgba(0, 0, 0, 0.08) !important;
 }
@@ -7343,6 +7367,8 @@ section {
     padding: 10px 20px;
     border: 0;
     background-color: #23a2b8;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .job-post-item .jobs_right .apply_now .btn-primary:hover {
@@ -7706,7 +7732,7 @@ section {
 .modal-body .feature-icons .content .icon-box i {
     font-size: 44px;
     line-height: 44px;
-    color: #0245bc;
+    color: #23a2b8;
     margin-right: 15px;
 }
 
@@ -7978,6 +8004,11 @@ button.close {
         max-width: 800px
     }
 }
+
+
+/*--------------------------------------------------------------
+# Halman Login Registrasi Pencari Lowongan
+--------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
