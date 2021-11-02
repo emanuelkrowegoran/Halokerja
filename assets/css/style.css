@@ -4641,310 +4641,6 @@ section {
 # Custom
 --------------------------------------------------------------*/
 
-.s131 {
-    min-height: 20vh;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    background: url("../img/banner/BANNER\ halokerja\ -\ profil.jpg");
-    background-size: cover;
-    background-position: center center;
-    padding: 25px;
-}
-
-.s131 form {
-    width: 100%;
-    max-width: 940px;
-}
-
-.s131 form .inner-form {
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.s131 form .inner-form .input-field {
-    height: 68px;
-}
-
-.s131 form .inner-form .input-field input {
-    height: 80%;
-    background: #fff;
-    border: 0;
-    display: block;
-    width: 80%;
-    padding: 10px 32px;
-    font-size: 16px;
-    color: #333;
-    border: 1px solid #e5e5e5;
-}
-
-.s131 form .inner-form .input-field input.placeholder {
-    color: #9a9a9a;
-    font-size: 20px;
-}
-
-.s131 form .inner-form .input-field input:-moz-placeholder {
-    color: #9a9a9a;
-    font-size: 20px;
-}
-
-.s131 form .inner-form .input-field input::-webkit-input-placeholder {
-    color: #9a9a9a;
-    font-size: 20px;
-}
-
-.s131 form .inner-form .input-field input:hover,
-.s131 form .inner-form .input-field input:focus {
-    box-shadow: none;
-    outline: 0;
-}
-
-.s131 form .inner-form .input-field.first-wrap {
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-}
-
-.s131 form .inner-form .input-field.first-wrap input {
-    border-right: 0;
-}
-
-.s131 form .inner-form .input-field.second-wrap {
-    min-width: 260px;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__inner {
-    background: #fff;
-    border-radius: 0;
-    border: 1px solid #e5e5e5;
-    height: 100%;
-    color: #333;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0 30px;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__inner .choices__list.choices__list--single {
-    display: -ms-flexbox;
-    display: flex;
-    padding: 0;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 100%;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 100%;
-    opacity: 1;
-    color: #333;
-    font-size: 20px;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__inner .choices__list--single .choices__item {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 100%;
-    font-size: 20px;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__list.choices__list--dropdown {
-    border: 0;
-    background: #fff;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
-    background: #fff;
-    color: #333;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__list--dropdown .choices__item {
-    color: #333;
-}
-
-.s131 form .inner-form .input-field.second-wrap .choices__list--dropdown {
-    margin-top: 0;
-}
-
-.s131 form .inner-form .input-field.third-wrap {
-    width: 164px;
-}
-
-.s131 form .inner-form .input-field.third-wrap .btn-search {
-    height: 90%;
-    width: 70%;
-    white-space: nowrap;
-    font-size: 15px;
-    color: rgb(8, 142, 215);
-    border: 0;
-    border-radius: 20px 5px 30px 5px;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    background: #ffffff;
-    transition: all .2s ease-out, color .2s ease-out;
-    font-weight: 100;
-}
-
-.s131 form .inner-form .input-field.third-wrap .btn-search:hover {
-    background: #c1d4ff;
-}
-
-.s131 form .inner-form .input-field.third-wrap .btn-search:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
-.s131 form .inner-form .choices[data-type*="select-one"] .choices__inner {
-    padding-bottom: 0;
-}
-
-.s131 form .inner-form .choices[data-type*="select-one"]:after {
-    border: 0;
-    width: 18px;
-    height: 18px;
-    margin: 0;
-    transform: translateY(-50%);
-    opacity: 1;
-    right: 15px;
-    top: 50%;
-    background-size: 18px 18px;
-    background-position: right center;
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg fill='%23999' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z'/%3e%3c/svg%3e");
-    background-repeat: no-repeat;
-}
-
-.s131 form .inner-form .choices[data-type*="select-one"].is-open:after {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg fill='%23999' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z'/%3e%3c/svg%3e");
-}
-
-@media screen and (max-width: 992px) {
-    .s131 form .inner-form .input-field {
-        height: 60px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .s131 form .inner-form {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        padding: 20px;
-    }
-    .s131 form .inner-form .input-field {
-        margin-bottom: 20px;
-    }
-    .s131 form .inner-form .input-field input {
-        padding: 10px 15px;
-    }
-    .s131 form .inner-form .input-field.first-wrap {
-        width: 100%;
-    }
-    .s131 form .inner-form .input-field.first-wrap .choices__inner {
-        padding: 10px 15px;
-    }
-    .s131 form .inner-form .input-field.second-wrap {
-        width: 100%;
-    }
-    .s131 form .inner-form .input-field.second-wrap input {
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    .s131 form .inner-form .input-field.third-wrap {
-        margin-bottom: 0;
-        width: 100%;
-    }
-}
-
-
-/*---- Search css ----*/
-
-.section-search {
-    text-align: center;
-    padding-bottom: 40px;
-}
-
-.section-search h2 {
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0;
-    color: #a0a0a0a9;
-}
-
-.section-search p {
-    margin: 10px 0 0 0;
-    padding: 0;
-    font-size: 20px;
-    line-height: 42px;
-    font-weight: 600;
-    color: #23A2B8;
-    text-transform: uppercase;
-}
-
-.search-box {
-    margin: 100px auto;
-}
-
-.search-box .input-group {
-    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
-}
-
-.search-box .form-control {
-    font-size: 14px;
-}
-
-.search-box .btn-success {
-    color: #fff;
-    background-color: #078dd6;
-    border-color: #078dd6;
-}
-
-.search-box .btn-light {
-    border: 1px solid #ced4da;
-}
-
-@media (max-width: 768px) {
-    .search .section-search p {
-        font-size: 15px;
-        line-height: 32px;
-    }
-    .search .section-search h2 {
-        font-size: 13px;
-        letter-spacing: 1px;
-        font-weight: 400;
-        margin: 0;
-        color: #a0a0a0a9;
-    }
-    .search .section-search {
-        padding-top: 0;
-    }
-    .search {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-}
-
-@media (min-width: 1200px) {
-    .search {
-        background: white url(../img/bg/test02.png) no-repeat center top;
-        background-size: contain;
-    }
-}
-
 
 /*---- Halaman CSS lowongan detail ----*/
 
@@ -8007,10 +7703,226 @@ button.close {
 
 
 /*--------------------------------------------------------------
-# Halman Login Registrasi Pencari Lowongan
+# Section search Lowongan
 --------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------
-# Halman Login Registrasi Pencari Lowongan
---------------------------------------------------------------*/
+/*---- Search css ----*/
+
+.section-search {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section-search h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    color: #a0a0a0a9;
+}
+
+.section-search p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #23A2B8;
+    text-transform: uppercase;
+}
+
+.search-box {
+    margin: 100px auto;
+}
+
+.search-box .input-group {
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+
+.search-box .form-control {
+    font-size: 14px;
+}
+
+.search-box .btn-success {
+    color: #fff;
+    background-color: #078dd6;
+    border-color: #078dd6;
+}
+
+.search-box .btn-light {
+    border: 1px solid #ced4da;
+}
+
+@media (max-width: 768px) {
+    .search .section-search p {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .search .section-search h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0;
+        color: #a0a0a0a9;
+    }
+    .search .section-search {
+        padding-top: 0;
+    }
+    .search {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .search {
+        background: white url(../img/bg/test02.png) no-repeat center top;
+        background-size: 100%;
+        height: 500px;
+    }
+}
+
+.s003 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    width: 100%;
+}
+
+.s003 form {
+    width: 100%;
+    max-width: 790px;
+    margin-bottom: 0;
+}
+
+.s003 form .inner-form {
+    background: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+
+.s003 form .inner-form .input-field {
+    height: 68px;
+}
+
+.s003 form .inner-form .input-field input {
+    height: 100%;
+    background: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 32px;
+    font-size: 16px;
+    color: #555;
+}
+
+.s003 form .inner-form .input-field input.placeholder {
+    color: #888;
+    font-size: 16px;
+}
+
+.s003 form .inner-form .input-field input:-moz-placeholder {
+    color: #888;
+    font-size: 16px;
+}
+
+.s003 form .inner-form .input-field input::-webkit-input-placeholder {
+    color: #888;
+    font-size: 16px;
+}
+
+.s003 form .inner-form .input-field input:hover,
+.s003 form .inner-form .input-field input:focus {
+    box-shadow: none;
+    outline: 0;
+    border-color: #fff;
+}
+
+.s003 form .inner-form .input-field.second-wrap {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.s003 form .inner-form .input-field.third-wrap {
+    width: 74px;
+}
+
+.s003 form .inner-form .input-field.third-wrap .btn-search {
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    background: #23A2B8;
+    transition: all .2s ease-out, color .2s ease-out;
+}
+
+.s003 form .inner-form .input-field.third-wrap .btn-search svg {
+    width: 16px;
+}
+
+.s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+    background: #23A2B8;
+}
+
+.s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 992px) {
+    .s003 form .inner-form .input-field {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .s003 form .inner-form {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .s003 form .inner-form .input-field {
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .s003 form .inner-form .input-field input {
+        padding: 10px 15px;
+    }
+    .s003 form .inner-form .input-field.first-wrap {
+        width: 100%;
+        border-right: 0;
+    }
+    .s003 form .inner-form .input-field.first-wrap .choices__inner {
+        padding: 10px 15px;
+    }
+    .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+        right: 11.5px;
+        border-color: #e5e5e5 transparent transparent transparent;
+    }
+    .s003 form .inner-form .input-field.second-wrap {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .s003 form .inner-form .input-field.second-wrap input {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .s003 form .inner-form .input-field.third-wrap {
+        margin-bottom: 0;
+        width: 100%;
+    }
+}
