@@ -6836,6 +6836,22 @@ section {
     background: #157d8f;
 }
 
+.ftco-section .dateex p {
+    font-size: 9px;
+    font-style: italic;
+    text-align: left;
+    margin-left: -35px;
+    color: rgb(119, 119, 119);
+}
+
+.ftco-section .datepost p {
+    font-size: 9px;
+    font-style: italic;
+    text-align: right;
+    margin-right: -35px;
+    color: rgb(119, 119, 119);
+}
+
 .job-post-item .tags {
     margin-bottom: -10px;
 }
