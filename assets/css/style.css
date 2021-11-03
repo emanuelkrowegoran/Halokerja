@@ -88,7 +88,13 @@ section {
     text-align: center;
 }
 
-.indlowongan .sectionlowongan-slider .swiper-wrapper .swiper-slide .section-lowongan-item .one-third .job-post-item-header a {
+.indlowongan .sectionlowongan-slider .swiper-wrapper .swiper-slide .section-lowongan-item .one-third .lokasi a {
+    color: #000000;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.indlowongan .sectionlowongan-slider .swiper-wrapper .swiper-slide .section-lowongan-item .one-third .kategori a {
     color: #000000;
     font-weight: 500;
     font-size: 13px;
@@ -169,12 +175,6 @@ section {
     text-align: right;
     margin-right: -35px;
     color: rgb(119, 119, 119);
-}
-
-.section-lowongan-item .jobs_right .date p {
-    font-size: 9px;
-    padding-top: 10px;
-    font-style: italic;
 }
 
 .section-lowongan-item .jobs_right .apply_now .btn-primary {
@@ -6820,6 +6820,20 @@ section {
 .ftco-section {
     padding: 6em 0;
     position: relative;
+}
+
+.ftco-section .getloading,
+.ftco-section .getloading:focus {
+    background: #23A2B8;
+    padding: 18px 30px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.ftco-section .getloading:hover,
+.ftco-section .getloading:focus:hover {
+    color: #fff;
+    background: #157d8f;
 }
 
 .job-post-item .tags {
