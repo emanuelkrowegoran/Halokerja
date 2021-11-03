@@ -88,7 +88,7 @@ section {
     text-align: center;
 }
 
-.indlowongan .sectionlowongan-slider .swiper-wrapper .swiper-slide .section-lowongan-item .one-third .job-post-item-header p {
+.indlowongan .sectionlowongan-slider .swiper-wrapper .swiper-slide .section-lowongan-item .one-third .job-post-item-header a {
     color: #000000;
     font-weight: 500;
     font-size: 13px;
@@ -151,8 +151,8 @@ section {
 }
 
 .section-lowongan-item .one-third .thumb img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .section-lowongan-item .dateex p {
