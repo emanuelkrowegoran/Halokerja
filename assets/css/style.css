@@ -156,17 +156,19 @@ section {
 }
 
 .section-lowongan-item .dateex p {
-    font-size: 8px;
+    font-size: 9px;
     font-style: italic;
     text-align: left;
-    margin-left: -25px;
+    margin-left: -35px;
+    color: rgb(119, 119, 119);
 }
 
 .section-lowongan-item .datepost p {
     font-size: 9px;
     font-style: italic;
     text-align: right;
-    margin-right: -25px;
+    margin-right: -35px;
+    color: rgb(119, 119, 119);
 }
 
 .section-lowongan-item .jobs_right .date p {
