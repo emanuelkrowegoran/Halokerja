@@ -1,14 +1,3 @@
-/**
- * Dialog Pop up login
-//  */
-// $(document).ready(function() {
-//     $('#loginModal').modal('show');
-//     $(function() {
-//         $('[data-toggle="tooltip"]').tooltip()
-//     })
-// });
-
-
 (function() {
     "use strict";
 
@@ -544,5 +533,11 @@
     window.addEventListener('load', () => {
         aos_init();
     });
+
+
+
+
+
+
 
 })();
