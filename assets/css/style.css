@@ -6858,6 +6858,7 @@ section {
     padding: 6px 12px;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
+    background-color: #ffffff;
 }
 
 .ftco-section .sidebar-box .single_field .wide {
@@ -6866,6 +6867,7 @@ section {
     border: 1px solid #E8E8E8;
     border-radius: 5px;
     width: 100%;
+    background-color: #ffffff;
 }
 
 .ftco-section .sidebar-box .single_field .wide option {
