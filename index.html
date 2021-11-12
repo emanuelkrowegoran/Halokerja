@@ -33,50 +33,6 @@
 </head>
 
 <body>
-    <article>
-        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header border-bottom-0">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-                    </div>
-                    <div class="modal-body">
-                        <header class="section-lainlowongan">
-                            <img src="assets/img/halokerja.png" class="img-fluid" alt=" ">
-                            <p>Masuk ke Halokerja</p>
-                            <h2>Saya ingin masuk sebagai</h2>
-                        </header>
-
-                        <div class="col-lg-12 col-md-6">
-                            <div class="row">
-                                <div class="perusahaan">
-                                    <a href="login.html">
-                                        <div class="feature-box d-flex align-items-center ">
-                                            <img src="assets/img/icon-login/ICON Pencari Lowongan.png" class="img-iconlogin" alt=" ">
-                                            <h3>Pencari Lowongan</h3>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-12 col-md-6">
-                                    <div class="pencari">
-                                        <a href="login.html">
-                                            <div class="feature-box d-flex align-items-center ">
-                                                <img src="assets/img/icon-login/ICON Penyedia Lowongan.png" class="img-iconlogin" alt=" ">
-                                                <h3>Penyedia Lowongan</h3>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- partial -->
-        </div>
-    </article>
 
 
     <!-- ======= Top Bar ======= -->
@@ -98,12 +54,19 @@
     </div>
 
 
-    <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="assets/img/halokerja.png" alt="">
             </a>
+
+
+
+            <!-- ======= Search ======= -->
+            <div class="col-md-3">
+                <div class="searchh"> <input type="text" class="form-control" placeholder="Coba cari lowongan..."> <button class="btn btn-primary"><i class="bi bi-search"></i></button> </div>
+            </div>
+
 
             <nav id="navbar" class="navbar">
                 <ul>
@@ -130,168 +93,41 @@
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
-            <!-- .navbar -->
         </div>
     </header>
     <!-- End Header -->
 
 
+
     <main id="main">
 
-        <!-- ======= Hero Section ======= -->
-        <section id="hero" class="hero d-flex align-items-center">
 
-            <div class="container">
-                <div class="banner-slider swiper" data-aos="fade-up" data-aos-delay="200">
-                    <div class="swiper-wrapper">
+        <!-- ======= Banner Promo Section ======= -->
+        <section id="banneriklan " class="banneriklan ">
 
-                        <div class="swiper-slide">
-                            <div class="row">
-                                <div class="col-lg-6 d-flex flex-column justify-content-center">
-                                    <h1 data-aos="fade-up">Awali Karir Profesionalmu Mulai dari Sekarang.</h1>
-                                    <h2 data-aos="fade-up" data-aos-delay="400">Portal Lowongan Kerja Terbaik di Indonesia</h2>
-                                    <div data-aos="fade-up" data-aos-delay="600">
-                                        <div class="text-center text-lg-start">
-                                            <a href="lowongan.html" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                                                <span>Lamar Sekarang</span>
-                                                <i class="bi bi-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                                    <img src="assets/img/slider-hero/Logo-Homepage-1.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="row">
-                                <div class="col-lg-6 d-flex flex-column justify-content-center">
-                                    <h1 data-aos="fade-up">Rekrut Tim Terbaikmu dari Seluruh Penjuru Indonesia.</h1>
-                                    <h2 data-aos="fade-up" data-aos-delay="400">Situs Pasang Iklan Lowongan Kerja Terupdate</h2>
-                                    <div data-aos="fade-up" data-aos-delay="600">
-                                        <div class="text-center text-lg-start">
-                                            <a href="cara-pasang.html" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                                                <span>Pasang Lowongan</span>
-                                                <i class="bi bi-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                                    <img src="assets/img/slider-hero/Logo-Homepage-2.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="row">
-                                <div class="col-lg-6 d-flex flex-column justify-content-center">
-                                    <h1 data-aos="fade-up">Dapatkan Info Terupdate dari Dunia Pekerjaan.</h1>
-                                    <h2 data-aos="fade-up" data-aos-delay="400">Kembangkan Bisnis & Impianmu Bersama Kami</h2>
-                                    <div data-aos="fade-up" data-aos-delay="600">
-                                        <div class="text-center text-lg-start">
-                                            <a href="blog.html" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                                                <span>Info Selengkapnya</span>
-                                                <i class="bi bi-arrow-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                                    <img src="assets/img/slider-hero/Logo-Homepage-3.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- End Hero --->
+            <div class="container " data-aos="fade-up ">
 
 
-        <!-- ======= Counts Section ======= -->
-        <section id="counts" class="counts">
-            <div class="container" data-aos="fade-up">
+                <div class="banneriklan-slider swiper " data-aos="fade-up " data-aos-delay="200 ">
+                    <div class="swiper-wrapper ">
 
-                <div class="row gy-4">
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="count-box">
-                            <img src="assets/img/icon-counter/ICON Kota.png" style="width: 70px;">
-                            <div class="angka-hitung">
-                                <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
-                                <p>Kota</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="count-box">
-                            <img src="assets/img/icon-counter/ICON Pengikut.png" style="width: 70px;">
-                            <div class="angka-hitung">
-                                <span data-purecounter-start="0" data-purecounter-end="219657" data-purecounter-duration="1" class="purecounter"></span>
-                                <p>Pengikut</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="count-box">
-                            <img src="assets/img/icon-counter/ICON Pekerjaan.png" style="width: 70px;">
-                            <div class="angka-hitung">
-                                <span data-purecounter-start="0" data-purecounter-end="1700" data-purecounter-duration="1" class="purecounter"></span>
-                                <p>Pekerjaan</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="count-box">
-                            <img src="assets/img/icon-counter/ICON Pengunjung.png" style="width: 70px;">
-                            <div class="angka-hitung">
-                                <span data-purecounter-start="0" data-purecounter-end="279691" data-purecounter-duration="1" class="purecounter"></span>
-                                <p>Pengunjung</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Counts Section -->
-
-
-        <!-- ======= Banner Promo 2 Section ======= -->
-        <section id="bannerpromo2" class="bannerpromo2">
-
-            <div class="container" data-aos="fade-up">
-
-
-                <div class="bannerpromo2-slider swiper" data-aos="fade-up" data-aos-delay="200">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="promo-item2">
-                                <img src="assets/img/slider-promo/iklan/iklan-01(1210x374 px).png" class="img-fluid" alt="">
+                        <div class="swiper-slide ">
+                            <div class="promo-item ">
+                                <img src="assets/img/slider-promo/promo-01.png " class="promo-img " alt=" ">
 
                             </div>
                         </div>
 
-                        <div class="swiper-slide">
-                            <div class="promo-item2">
-                                <img src="assets/img/slider-promo/iklan/iklan-02(1210x374 px).png" class="img-fluid" alt="">
+                        <div class="swiper-slide ">
+                            <div class="promo-item ">
+                                <img src="assets/img/slider-promo/promo-02.png " class="promo-img " alt=" ">
 
                             </div>
                         </div>
 
-                        <div class="swiper-slide">
-                            <div class="promo-item2">
-                                <img src="assets/img/slider-promo/iklan/iklan-03(1210x374 px).png" class="img-fluid" alt="">
+                        <div class="swiper-slide ">
+                            <div class="promo-item ">
+                                <img src="assets/img/slider-promo/promo-03.png " class="promo-img " alt=" ">
 
                             </div>
                         </div>
@@ -299,7 +135,7 @@
 
 
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination "></div>
                 </div>
 
             </div>
@@ -307,331 +143,109 @@
         </section>
         <!-- End Banner Promo Section -->
 
+        <!-- ======= Lowongan ======= -->
+        <section id="filter" class="sticky-top">
+            <div class="filter">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-lg-12 " style="text-align: center; margin-top:-50px ">
+                            <div class="row ">
 
-
-        <section id="search" class="search">
-            <div class="container " data-aos="fade-up ">
-                <header class="section-search">
-                    <p>Lowongan Kerja Terbaru</p>
-                    <h2>Cari & Apply</h2>
-                </header>
-                <div class="s003">
-                    <form>
-                        <div class="inner-form">
-                            <div class="input-field second-wrap">
-                                <input id="search" type="text" placeholder="Cari Lowongan yang diinginkan.." />
-                            </div>
-                            <div class="input-field third-wrap">
-                                <button class="btn-search" type="button">
-                    <svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
-                    </svg>
-                    </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <section id="kategorilowongan " class="kategorilowongan ">
-            <div class="container " data-aos="fade-up ">
-                <header class="section-lowongan ">
-                    <p>Lowongan Kerja Berdasarkan Industri</p>
-                    <h2>Lihat lowongan berdasarkan industri</h2>
-                </header>
-
-
-                <div class="row ">
-
-                    <div class="col-lg-12 mt-5 mt-lg-0 d-flex ">
-                        <div class="row align-self-center gy-4 ">
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="200 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Desain + Seni.png " class="img-iconkategori " alt=" ">
-                                        <h3>Desain & Seni</h3>
+                                <div class="col-lg-3 sidebar ">
+                                    <div class="sidebar-box bg-light p-3 ftco-animate ">
+                                        <div class="single_field ">
+                                            <h3>Kota dan Area</h3>
+                                            <select class="wide ">
+                                    <option data-display="Semua Kota ">Semua Kota</option>
+                                    <option value="1 ">Jakarta</option>
+                                    <option value="2 ">Yogyakarta</option>
+                                </select>
+                                        </div>
                                     </div>
-                                </a>
-                            </div>
+                                </div>
 
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="300 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Perhotelan + Penginapan.png " class="img-iconkategori " alt=" ">
-                                        <h3>Perhotelan & Penginapan</h3>
+                                <div class="col-lg-3 sidebar ">
+                                    <div class="sidebar-box bg-light p-3 ftco-animate ">
+                                        <div class="single_field ">
+                                            <h3>Status Pekerjaan</h3>
+                                            <select class="wide ">
+                                    <option data-display="Semua ">Semua</option>
+                                    <option value="1 ">Full Time</option>
+                                    <option value="2 ">Freelance</option>
+                                </select>
+                                        </div>
                                     </div>
-                                </a>
+
+                                </div>
+
+                                <div class="col-lg-3 sidebar ">
+                                    <div class="sidebar-box bg-light p-3 ftco-animate ">
+                                        <div class="single_field ">
+                                            <h3>Pendidikan Terakhir</h3>
+                                            <select class="wide ">
+                                    <option data-display="Semua ">Semua</option>
+                                    <option value="1 ">S2</option>
+                                    <option value="2 ">S1</option>
+                                </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 sidebar ">
+                                    <div class="sidebar-box bg-light p-3 ftco-animate ">
+                                        <div class="single_field ">
+                                            <h3>Kategori Industri</h3>
+                                            <select class="wide ">
+                                    <option data-display="Semua Industri ">Semua Industri</option>
+                                    <option value="1 ">Design</option>
+                                    <option value="2 ">Sales </option>
+                                </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
                             </div>
 
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="400 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Kesehatan + Kebugaran.png " class="img-iconkategori " alt=" ">
-                                        <h3>Kesehatan & Kebugaran</h3>
-                                    </div>
-                                </a>
-                            </div>
 
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="500 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Keuangan.png " class="img-iconkategori " alt=" ">
-                                        <h3>Keuangan</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="600 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Makanan + Minuman.png " class="img-iconkategori " alt=" ">
-                                        <h3>Makanan & Minuman</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="700 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Manufaktur.png " class="img-iconkategori " alt=" ">
-                                        <h3>Manufaktur</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="500 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Pendidikan + Pelatihan.png " class="img-iconkategori " alt=" ">
-                                        <h3>Pendidikan & Pelatihan</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="500 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Sales Marketing.png " class="img-iconkategori " alt=" ">
-                                        <h3>Sales/ Marketing</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="600 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Layanan + Keamanan.png " class="img-iconkategori " alt=" ">
-                                        <h3>Layanan & Keamanan</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="700 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Staf.png " class="img-iconkategori " alt=" ">
-                                        <h3>Staf</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="600 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Teknologi.png " class="img-iconkategori " alt=" ">
-                                        <h3>Teknologi</h3>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-md-3 " data-aos="zoom-out " data-aos-delay="700 ">
-                                <a href="lowongan.html">
-                                    <div class="feature-box d-flex align-items-center ">
-                                        <img src="assets/img/icon-kategori/ICON Lain Lain.png " class="img-iconkategori " alt=" ">
-                                        <h3>Lain-lain</h3>
-                                    </div>
-                                </a>
-                            </div>
 
 
                         </div>
                     </div>
-
                 </div>
-                <!-- / row -->
 
-            </div>
+
+
+
+                <!-- end -->
+
         </section>
 
 
-
-        <section id="kotalowongan " class="kotalowongan ">
-            <div class="container " data-aos="fade-up ">
-                <header class="section-lowongan ">
-                    <p>Lowongan Terbaik Di Wilayah Anda</p>
-                    <h2>Peluang karir menarik menanti Anda di kota-kota ini</h2>
-                </header>
-
-
-                <div class="row gy-4 " style="text-align: center; ">
-
-
-                    <div class="pulau-slider swiper ">
-
-                        <div class="swiper-wrapper align-items-center ">
-
-                            <div class="swiper-slide ">
-                                <a href="lowongan.html">
-                                    <div class="kota ">
-                                        <div class="kota-img ">
-                                            <img src="assets/img/kota/MAP Sumatera.png " class="img-fluid " alt=" ">
-                                        </div>
-                                        <div class="kota-info ">
-                                            <h4>Sumatra</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-
-                            <div class="swiper-slide ">
-                                <a href="lowongan.html">
-                                    <div class="kota ">
-                                        <div class="kota-img ">
-                                            <img src="assets/img/kota/MAP Kalimantan.png " class="img-fluid " alt=" ">
-                                        </div>
-                                        <div class="kota-info ">
-                                            <h4>Kalimantan</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                            <div class="swiper-slide ">
-                                <a href="lowongan.html">
-                                    <div class="kota ">
-                                        <div class="kota-img ">
-                                            <img src="assets/img/kota/MAP Jawa.png " class="img-fluid " alt=" ">
-                                        </div>
-                                        <div class="kota-info ">
-                                            <h4>Jawa</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                            <div class="swiper-slide ">
-                                <a href="lowongan.html">
-                                    <div class="kota ">
-                                        <div class="kota-img ">
-                                            <img src="assets/img/kota/MAP Bali.png " class="img-fluid " alt=" ">
-                                        </div>
-                                        <div class="kota-info ">
-                                            <h4>Bali</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide ">
-                                <a href="lowongan.html">
-                                    <div class="kota ">
-                                        <div class="kota-img ">
-                                            <img src="assets/img/kota/MAP Sulawesi.png " class="img-fluid " alt=" ">
-
-                                        </div>
-                                        <div class="kota-info ">
-                                            <h4>Sulawesi</h4>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide ">
-                                <a href="lowongan.html">
-                                    <div class="kota ">
-                                        <div class="kota-img ">
-                                            <img src="assets/img/kota/MAP Papua.png " class="img-fluid " alt=" ">
-
-                                        </div>
-                                        <div class="kota-info ">
-                                            <h4>Papua</h4>
-                                        </div>
-                                    </div>
-                                </a>
+        <!-- ======= Lowongan ======= -->
+        <section class="HalamanLowongan bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 sidebar">
+                        <div class="sidebar-box bg-white p-4 ftco-animate">
+                            <div class="single_field">
+                                <h4>PREIUM</h4>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
 
 
 
-
-        <section id="indlowongan" class="indlowongan">
-            <div class="container" data-aos="fade-up">
-                <header class="section-lowongan">
-                    <p>Lowongan Kerja Terbaru</p>
-                    <h2>Cari & Apply</h2>
-                </header>
-
-
-
-
-                <div class="row gy-4 " style="text-align: center; ">
-
-                    <div class="sectionlowongan-slider swiper ">
-
-                        <div class="swiper-wrapper align-items-center ">
-
-                            <div class="swiper-slide ">
-
-                                <div class="section-lowongan-item p-4 d-block d-lg-flex align-items-center">
+                        <div class="sidebar-box bg-white p-4 ftco-animate">
+                            <div class="single_field" style="text-align: center;">
+                                <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
                                     <div class="one-third mb-4 mb-md-0">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <div class="dateex">
-                                                        <p>Deadline: 31 Jan 2020</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="datepost">
-                                                        <p>Post: 2 Days ago</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="thumb">
                                             <img src="assets/img/lowongan/logo-perusahaan.png" alt="">
                                         </div>
                                         <div class="job-post-item-header align-items-center">
                                             <span>PT. Hadi Grup</span>
-                                            <h2><a href="#">Frontend Development</a></h2>
-                                        </div>
-                                        <div class="tags ">
-                                            <ul>
-                                                <li><a href="# ">Full Time</a></li>
-                                                <li><a href="# ">SMA Sederajat</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="lokasi" style="text-align: left;">
-                                            <a><img src="assets/img/icon-menu/lowongan.png"> Bandung, Jawa Timur</a>
-                                        </div>
-                                        <div class="kategori" style="text-align: left;">
-                                            <a><img src="assets/img/icon-menu/tentang.png "> Design & Seni</p>
+                                            <p><a href="#">Tersedia 4 Lowongan</a></p>
                                         </div>
                                         <div class="jobs_right ">
                                             <div class="apply_now ">
@@ -641,10 +255,57 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="swiper-slide ">
+                        <div class="sidebar-box bg-white p-4 ftco-animate">
+                            <div class="single_field" style="text-align: center;">
+                                <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+                                    <div class="one-third mb-4 mb-md-0">
+                                        <div class="thumb">
+                                            <img src="assets/img/lowongan/logo-perusahaan.png" alt="">
+                                        </div>
+                                        <div class="job-post-item-header align-items-center">
+                                            <span>PT. Hadi Grup</span>
+                                            <p><a href="#">Tersedia 4 Lowongan</a></p>
+                                        </div>
+                                        <div class="jobs_right ">
+                                            <div class="apply_now ">
+                                                <a data-toggle="modal " data-target="#loginModal " href="# " class="btn btn-primary py-2 ">Lamar Sekarang</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                                <div class="section-lowongan-item p-4 d-block d-lg-flex align-items-center">
+                    </div>
+
+
+
+                    <div class="col-lg-9" style="text-align: center; ">
+                        <div class="row">
+
+                            <div class="sidebar-box bg-white p-4 ftco-animate">
+                                <div class="single_field">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <h4>Info Lowongan Kerja Terbaru</h4>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="serch_cat d-flex justify-content-end">
+                                                <select class="terbaru">
+                                                    <option data-display="Urutkan">Semua Lowongan</option>
+                                                    <option value="1">Lowongan Terbaru</option>
+                                                    <option value="2">Lowongan Terlama</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ftco-animate">
+                                <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
                                     <div class="one-third mb-4 mb-md-0">
                                         <div class="container">
                                             <div class="row">
@@ -688,13 +349,32 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- end -->
 
-                            <!-- <div class="swiper-slide ">
 
-                                <div class="section-lowongan-item p-4 d-block d-lg-flex align-items-center ">
-                                    <div class="one-third mb-4 mb-md-0 ">
-                                        <div class="thumb ">
-                                            <img src="assets/img/lowongan/logo-perusahaan.png " alt=" ">
+                            <div class="col-md-4 ftco-animate">
+                                <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+                                    <div class="one-third mb-4 mb-md-0">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="dateex">
+                                                        <p>Deadline: 31 Jan 2020</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="datepost">
+                                                        <p>Post: 2 Days ago</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="thumb">
+                                            <img src="assets/img/lowongan/logo-perusahaan.png" alt="">
+                                        </div>
+                                        <div class="job-post-item-header align-items-center">
+                                            <span>PT. Hadi Grup</span>
+                                            <h2><a href="#">Frontend Development</a></h2>
                                         </div>
                                         <div class="tags ">
                                             <ul>
@@ -702,30 +382,48 @@
                                                 <li><a href="# ">SMA Sederajat</a></li>
                                             </ul>
                                         </div>
-                                        <div class="job-post-item-header align-items-center ">
-                                            <span>PT. Hadi Grup</span>
-                                            <h2><a href="# ">Frontend Development</a></h2>
-                                            <p>Yogyakarta, Indonesia</p>
+
+                                        <div class="lokasi" style="text-align: left;">
+                                            <a><img src="assets/img/icon-menu/lowongan.png"> Bandung, Jawa Timur</a>
+                                        </div>
+                                        <div class="kategori" style="text-align: left;">
+                                            <a><img src="assets/img/icon-menu/tentang.png "> Design & Seni</p>
                                         </div>
                                         <div class="jobs_right ">
                                             <div class="apply_now ">
                                                 <a data-toggle="modal " data-target="#loginModal " href="# " class="btn btn-primary py-2 ">Lamar Sekarang</a>
                                             </div>
-                                            <div class="date ">
-                                                <p>Date line: 31 Jan 2020</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- end -->
 
 
-                            <div class="swiper-slide ">
 
-                                <div class="section-lowongan-item p-4 d-block d-lg-flex align-items-center ">
-                                    <div class="one-third mb-4 mb-md-0 ">
-                                        <div class="thumb ">
-                                            <img src="assets/img/lowongan/logo-perusahaan.png " alt=" ">
+                            <div class="col-md-4 ftco-animate">
+                                <div class="job-post-item p-4 d-block d-lg-flex align-items-center">
+                                    <div class="one-third mb-4 mb-md-0">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="dateex">
+                                                        <p>Deadline: 31 Jan 2020</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="datepost">
+                                                        <p>Post: 2 Days ago</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="thumb">
+                                            <img src="assets/img/lowongan/logo-perusahaan.png" alt="">
+                                        </div>
+                                        <div class="job-post-item-header align-items-center">
+                                            <span>PT. Hadi Grup</span>
+                                            <h2><a href="#">Frontend Development</a></h2>
                                         </div>
                                         <div class="tags ">
                                             <ul>
@@ -733,247 +431,37 @@
                                                 <li><a href="# ">SMA Sederajat</a></li>
                                             </ul>
                                         </div>
-                                        <div class="job-post-item-header align-items-center ">
-                                            <span>PT. Hadi Grup</span>
-                                            <h2><a href="# ">Frontend Development</a></h2>
-                                            <p>Yogyakarta, Indonesia</p>
+
+                                        <div class="lokasi" style="text-align: left;">
+                                            <a><img src="assets/img/icon-menu/lowongan.png"> Bandung, Jawa Timur</a>
+                                        </div>
+                                        <div class="kategori" style="text-align: left;">
+                                            <a><img src="assets/img/icon-menu/tentang.png "> Design & Seni</p>
                                         </div>
                                         <div class="jobs_right ">
                                             <div class="apply_now ">
                                                 <a data-toggle="modal " data-target="#loginModal " href="# " class="btn btn-primary py-2 ">Lamar Sekarang</a>
                                             </div>
-                                            <div class="date ">
-                                                <p>Date line: 31 Jan 2020</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
+                            <!-- end -->
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col text-center">
+                                <div class="mt-5 text-center ">
+                                    <a class="getloading scrollto " href="lowongan.html ">Load more</i> </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="mt-5 text-center ">
-                    <a class="getlowongan scrollto " href="lowongan.html ">Lihat Semua Lowongan</i> </a>
                 </div>
-
             </div>
         </section>
 
 
-        <!-- ======= Recent Blog Posts Section ======= -->
-        <section id="recent-blog-posts " class="recent-blog-posts ">
-
-            <div class="container " data-aos="fade-up ">
-
-                <header class="section-blogpost ">
-                    <p>Blog</p>
-                    <h2>Beberapa artikel kami</h2>
-                </header>
-
-
-                <div class="row ">
-                    <div class="blog-slider swiper ">
-
-                        <div class="swiper-wrapper align-items-center ">
-
-
-                            <div class="swiper-slide ">
-                                <div class="post-box ">
-                                    <div class="post-img "><img src="assets/img/Kelebihan-Pasang Website-Halokerja.png " class="img-fluid " alt=" "></div>
-                                    <span class="post-date ">Senin, 10 Oktober 2021</span>
-                                    <a href="blog-single.html ">
-                                        <h3 class="post-title ">Lupa Lepas Helm Saat Kondangan, Ibu-ibu Ini Bikin Warganet Ngakak</h3>
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <div class="swiper-slide ">
-                                <div class="post-box ">
-                                    <div class="post-img "><img src="assets/img/blog/img-blog.jpg " class="img-fluid " alt=" "></div>
-                                    <span class="post-date ">Senin, 10 Oktober 2021</span>
-                                    <a href="blog-single.html ">
-                                        <h3 class="post-title ">Lupa Lepas Helm Saat Kondangan, Ibu-ibu Ini Bikin Warganet Ngakak</h3>
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <div class="swiper-slide ">
-                                <div class="post-box ">
-                                    <div class="post-img "><img src="assets/img/blog/img-blog.jpg " class="img-fluid " alt=" "></div>
-                                    <span class="post-date ">Senin, 10 Oktober 2021</span>
-                                    <a href="blog-single.html ">
-                                        <h3 class="post-title ">Lupa Lepas Helm Saat Kondangan, Ibu-ibu Ini Bikin Warganet Ngakak</h3>
-                                    </a>
-                                </div>
-                            </div>
-
-
-                            <div class="swiper-slide ">
-                                <div class="post-box ">
-                                    <div class="post-img "><img src="assets/img/blog/img-blog.jpg " class="img-fluid " alt=" "></div>
-                                    <span class="post-date ">Senin, 10 Oktober 2021</span>
-                                    <a href="blog-single.html ">
-                                        <h3 class="post-title ">Lupa Lepas Helm Saat Kondangan, Ibu-ibu Ini Bikin Warganet Ngakak</h3>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </section>
-        <!-- End Recent Blog Posts Section -->
-
-
-        <!-- ======= Kebijakan Section ======= -->
-        <section id="kebijakan " class="kebijakan ">
-            <div class="container " data-aos="fade-up ">
-
-                <div class="row ">
-
-
-                    <div class="col-lg-12 entries ">
-
-                        <article class="entry ">
-                            <header class="section-header ">
-                                <img src="assets/img/halokerja.png " alt=" ">
-                            </header>
-
-                            <h2>Demi terus menjaga kredibilitas Halokerja, maka kami mengeluarkan kebijakan bagi semua follower sebagai berikut.
-                            </h2>
-
-
-
-                            <div class="row gy-4 ">
-
-                                <div class="col-lg-6 ">
-
-                                    <div class="row gy-4 ">
-                                        <div class="col-md-12 ">
-                                            <h4>DEAR PENCARI / PELAMAR KERJA</h4>
-
-                                            <p>
-                                                1. Harap cek terlebih dahulu kredibilitas perusahaan / tempat kerja yang akan anda lamar.
-                                            </p>
-                                            <p>
-                                                2. Silahkan kirimkan lamaran kerja ke perusahaan yang anda inginkan secara manual (Via Email, Kontak, atau datang langsung).
-                                            </p>
-                                            <p>
-                                                3. Kami memberikan fitur hybrid “Lamar Kerja” secara otomatis & secara manual di website, agar Halokerja bisa dinikmati oleh semua perusahaan, baik perusahaan besar, menengah, ataupun kecil yang dapat digunakan secara otomatis dan secara tradisional dalam
-                                                merekrut palamar kerja.
-                                            </p>
-                                            <p>
-                                                4. Harap laporkan kepada kami jika ada unsur penipuan atau pemungutan biaya dalam proses perekrutan karyawan baru dalam lowongan kerja yang masuk di Halokerja
-                                            </p>
-                                            <p>
-                                                5. Semua informasi lowongan kerja yang masuk di Halokerja telah melewati tahap verifikasi Admin. Kami berusaha semaksimal mungkin untuk memposting Info Lowongan Kerja yang valid demi kenyamanan dan kemaslahatan bersama
-                                            </p>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-6 ">
-
-
-                                    <div class="row gy-4 ">
-                                        <div class="col-md-12 ">
-                                            <h4>DEAR PENGIKLAN LOWONGAN KERJA</h4>
-
-                                            <p>
-                                                1. Apabila anda ingin memasang/mengiklankan lowongan kerja di Halokerja, Silahkan langsung hubungi kontak kami. Agar kami bisa menverifikasi iklan anda.
-                                            </p>
-                                            <p>
-                                                2. Harap mengirimkan detail informasi lowongan kerja yang ingin anda iklankan dengan jelas. Nama Perusahaan / Lembaga, Alamat, Posisi yang di cari, Kriteria, Fulltime / Partime, No kontak / email, dan lain-lain
-                                            </p>
-                                            <p>
-                                                3. Harap tidak mengirimkan info lowongan kerja kepada kami, jika anda bukan orang yang berwenang di perusahaan tersebut. Agar info yang masuk pada kami benar-benar info yang valid.
-                                            </p>
-                                            <p>
-                                                4. Iklan lowongan kerja yang sudah masuk atau sedang tayang, tidak dapat di pending atau dibatalkan dengan alasan apapun. Kecuali pengiklan ingin iklan dihapus dan kontrak iklan dinyatakan selesai.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-6 ">
-
-                                    <div class="row gy-4 ">
-                                        <div class="col-md-12 ">
-                                            <h4>LARANGAN UNTUK PENCARI / PELAMAR KERJA</h4>
-
-                                            <p>
-                                                1. Kami melarang semua follower memberikan berkomentar yang melanggar SARA, fitnah, atau menebar kebencian di sosial media Halokerja.
-                                            </p>
-                                            <p>
-                                                2. Kami melarang semua aktifitas spam di kolom komentar sosial media Halokerja.
-                                            </p>
-                                            <p>
-                                                3. Apabila ketahuan melakukan pelanggaran diatas, maka kami akan memblokir akun tersebut secara permanen.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-lg-6 ">
-
-
-                                    <div class="row gy-4 ">
-                                        <div class="col-md-12 ">
-                                            <h4>LARANGAN UNTUK PENGIKLAN LOWONGAN KERJA</h4>
-
-                                            <p>
-                                                1. Dilarang memasukkan informasi lowongan kerja yang tidak jelas dan bersifat penipuan.
-                                            </p>
-                                            <p>
-                                                2. Dilarang memanipulasi posisi lowongan kerja untuk mengecoh pelamar (Contoh: Iklan posisi Supir, ternyata jadi Sales Marketing).
-                                            </p>
-                                            <p>
-                                                3. Dilarang meminta/menarik sejumlah uang kepada pelamar kerja dengan alasan apapun (psikotes, cek kesehatan, dll).
-                                            </p>
-                                            <p>
-                                                4. Apabila ketahuan melakukan pelanggaran diatas, maka demi menjaga kredibilitas Halokerja dan kemaslahatan bersama, kami berhak menolak pemasangan iklan tersebut.
-                                            </p>
-                                            <p>
-                                                5. Apabila iklan sudah tayang, maka kami berhak untuk menghapus iklan tersebut dari semua media kami, dan semua proses iklan kami nyatakan selesai
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-
-                            <h4>Sekian kebijakan dari kami untuk kemaslahatan bersama. Membaca atau tidak, kami anggap anda SETUJU dengan semua kebijakan kami. Atas perhatiannya, kami ucapkan terimakasih
-                                </h2>
-                                <h3>Hormat kami</h3>
-                                <h2>Halokerja</h2>
-
-                        </article>
-                        <!-- End Kebijakan entry -->
-
-
-
-                    </div>
-                    <!-- End Kebijakan entries list -->
-
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Kebijakan Section -->
 
     </main>
     <!-- End #main -->
@@ -1061,5 +549,9 @@
 
 
 </body>
+
+</html>
+
+</html>
 
 </html>
