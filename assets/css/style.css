@@ -8832,3 +8832,39 @@ button.close {
 .services .service-box:hover .icon {
     background: #fff;
 }
+
+
+/*--------------------------------------------------------------
+# Logo Perushaan Partner
+--------------------------------------------------------------*/
+
+.section-logoperusahaan {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section-logoperusahaan p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #23A2B8;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .section-logoperusahaan p {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .perusahaan .feature-box img {
+        width: 10px;
+        text-align: center;
+    }
+}
+
+.perusahaan .feature-box img {
+    width: 100px;
+    text-align: center;
+}
