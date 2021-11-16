@@ -8048,39 +8048,42 @@ button.close {
 # Search
 --------------------------------------------------------------*/
 
-@media (min-width: 768px) {
-    .searchh {
-        position: relative;
-        box-shadow: 0 0 40px rgba(51, 51, 51, .1)
-    }
-    .searchh input {
-        text-indent: 15px;
-        border: 1px solid #23a2b8;
-        font-size: 12px;
-    }
-    .searchh input:focus {
-        box-shadow: none;
-        border: 1px solid blue
-    }
-    .searchh button {
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-        background: #23a2b8;
-        border: 1px solid #23a2b8;
-    }
-    .searchh button i {
-        font-size: 13px;
-    }
-    .searchh button:hover {
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-        background: #157d8f;
-        border: 1px solid #23a2b8;
-    }
+.searchh {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.searchh input {
+    text-indent: 15px;
+    border: 1px solid #23a2b8;
+    font-size: 12px;
+}
+
+.searchh input:focus {
+    box-shadow: none;
+    border: 1px solid blue
+}
+
+.searchh button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #23a2b8;
+    border: 1px solid #23a2b8;
+}
+
+.searchh button i {
+    font-size: 13px;
+}
+
+.searchh button:hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #157d8f;
+    border: 1px solid #23a2b8;
 }
 
 
@@ -8706,11 +8709,6 @@ button.close {
     font-size: 15px;
     color: #000;
 }
-
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
