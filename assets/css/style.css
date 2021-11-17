@@ -8178,6 +8178,26 @@ button.close {
     color: #000;
 }
 
+@media (max-width: 768px) {
+    .filter .sidebar-box .single_field .wide {
+        font-size: 12px;
+        padding: 10px 12px;
+        border: 1px solid #E8E8E8;
+        border-radius: 5px;
+        width: 10px;
+        background-color: #fff;
+        color: #000;
+    }
+    .section-headerservice p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .perusahaan .feature-box img {
+        width: 10px;
+        text-align: center;
+    }
+}
+
 .filter .sidebar {
     margin-bottom: -15px;
 }
@@ -8876,8 +8896,8 @@ button.close {
         font-size: 18px;
         line-height: 32px;
     }
-    .perusahaan .feature-box img {
-        width: 10px;
+    .perusahaan .feature-box .img-logoperusahaan {
+        width: 90%;
         text-align: center;
     }
 }
