@@ -8746,9 +8746,10 @@
             font-size: 18px;
             line-height: 32px;
         }
-        .perusahaan .feature-box .img-logoperusahaan {
-            width: 90%;
+        .perusahaan .feature-box img {
+            width: 80px;
             text-align: center;
+            padding-bottom: 20px;
         }
     }
     
