@@ -8622,7 +8622,7 @@
     .section-kontak h2 {
         margin: 10px 0 0 0;
         padding: 0;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 42px;
         font-weight: 600;
         color: #23A2B8;
@@ -8630,7 +8630,7 @@
     }
     
     .section-kontak p {
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 1px;
         font-weight: 400;
         margin: 0;
@@ -8638,9 +8638,21 @@
     }
     
     @media (max-width: 768px) {
+        .section-kontak h2 {
+            margin: 10px 0 0 0;
+            padding: 0;
+            font-size: 16px;
+            line-height: 42px;
+            font-weight: 600;
+            color: #23A2B8;
+            text-transform: uppercase;
+        }
         .section-kontak p {
-            font-size: 28px;
-            line-height: 32px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 400;
+            margin: 0;
+            color: #a0a0a0a9;
         }
     }
     
@@ -8649,15 +8661,17 @@
         background: #fafbff;
         padding: 25px;
         text-align: center;
+        margin-bottom: 40px;
     }
     
     .contact .getstarted,
     .contact .getstarted:focus {
         padding: 8px 20px;
-        margin-left: 30px;
+        text-align: center;
         border-radius: 4px;
         color: #22448C;
         border: 1px solid #22448C;
+        margin-left: 10px;
     }
     
     .contact .getstarted:hover,
@@ -8666,14 +8680,11 @@
         background: #22448C;
     }
     
-    .contact .info-box {
-        margin-bottom: 50px;
-    }
-    
     .contact .info-box i {
         font-size: 40px;
         line-height: 0;
         color: #22448C;
+        ;
     }
     
     .contact .info-box h3 {
