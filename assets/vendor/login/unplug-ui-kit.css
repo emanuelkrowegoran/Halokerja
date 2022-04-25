@@ -10988,7 +10988,7 @@ small,
 
 .auth-form-section {
     width: 100%;
-    max-width: 330px;
+    /* max-width: 330px; */
     margin-left: auto;
     margin-right: auto;
 }
