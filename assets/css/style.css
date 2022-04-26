@@ -8799,3 +8799,68 @@
             background: #34BC78;
             color: #fff;
         }
+        /*--------------------------------------------------------------
+# Dasboard
+--------------------------------------------------------------*/
+        /* .counts {
+    padding: 70px 0 60px;
+} */
+        
+        .dasboard .count-box {
+            display: flex;
+            align-items: center;
+            padding: 26px;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+        }
+        
+        .dasboard .count-box .angka-hitung {
+            padding-left: 20px;
+        }
+        
+        .dasboard .count-box i {
+            font-size: 42px;
+            line-height: 0;
+            margin-right: 20px;
+            color: #23A2B8;
+        }
+        
+        .dasboard .count-box span {
+            font-size: 30px;
+            display: block;
+            font-weight: 600;
+            color: #23a2b8;
+        }
+        
+        .dasboard .count-box p {
+            padding: 0;
+            margin: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 10px;
+        }
+        
+        .dasboard .count-box:hover {
+            transform: scale(1.08);
+            box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+        }
+        
+        .dasboard .count-box:hover .social {
+            right: 8px;
+            opacity: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .dasboard .count-box span {
+                font-size: 20px;
+                display: block;
+                font-weight: 600;
+                color: #23a2b8;
+            }
+            .dasboard .count-box p {
+                padding: 0;
+                margin: 0;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 14px;
+            }
+        }
